@@ -1,0 +1,16 @@
+:root {
+  --primary: #5468e7;
+  --primary-shades: #d1ecfd;
+  --secondary: #c897e4;
+  --secondary-shades: #e8beff;
+  --dark: #232340;
+  --dark-shades: #323259;
+  --dark: #ffffff;
+  --dark-shades: #ededed;
+
+  --text-color: #000000;
+  --text-secondary-color: #606060;
+
+  --text-size-title: 1.125rem;
+  --text-size-display2: 5.25rem;
+}
