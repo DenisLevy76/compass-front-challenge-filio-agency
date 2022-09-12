@@ -1,0 +1,23 @@
+@import url(../variables.css);
+
+.work {
+  background: url(../../assets/images/workBackground.png);
+  height: 100%;
+  padding: 0 2rem;
+}
+
+.work__wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.work__tittle {
+  font-size: var(--text-size-heading4);
+  font-weight: 700;
+}
+
+.work__description {
+  font-size: var(--text-size-body2);
+  color: var(--text-secondary-color);
+}
