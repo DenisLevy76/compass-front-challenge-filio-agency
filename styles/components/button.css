@@ -1,11 +1,19 @@
 .button {
   border: none;
+  border-radius: var(--border-radius);
   padding: 1rem 2rem;
+
   background-color: var(--primary);
   color: var(--light);
+
   cursor: pointer;
+
+  text-decoration: none;
+  text-align: center;
+
+  width: auto;
 }
 
 .button:hover {
-  background-color: var(--primary-shades);
+  filter: brightness(0.9);
 }
