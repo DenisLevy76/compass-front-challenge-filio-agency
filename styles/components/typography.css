@@ -1,0 +1,20 @@
+.title-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+
+  padding: 4rem 2rem 2rem 2rem;
+}
+
+.heading4 {
+  font-size: var(--text-size-heading4);
+  font-weight: 700;
+}
+
+.light {
+  color: var(--dark);
+}
+
+.dark {
+  color: var(--light);
+}

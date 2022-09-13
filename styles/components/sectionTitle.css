@@ -1,0 +1,24 @@
+.section__title {
+  display: flex;
+  gap: 1.5rem;
+
+  font-size: 0.875rem;
+
+  font-weight: 600;
+}
+
+.section__title-span {
+  font-size: 0.875rem;
+
+  font-weight: 600;
+
+  color: var(--text-secondary-shades2);
+}
+
+.section__title-light {
+  color: var(--primary);
+}
+
+.section__title-dark {
+  color: var(--light);
+}
