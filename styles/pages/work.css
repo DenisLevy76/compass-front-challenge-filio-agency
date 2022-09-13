@@ -1,9 +1,7 @@
 @import url(../variables.css);
 
 .work {
-  background: url(../../assets/images/workBackground.png);
-  height: 100%;
-  padding: 0 2rem;
+  overflow-x: hidden;
 }
 
 .work__wrapper {
@@ -12,6 +10,7 @@
   gap: 1.5rem;
 
   align-items: flex-start;
+  padding: 0 2rem;
 }
 
 .work__tittle {
@@ -22,4 +21,9 @@
 .work__description {
   font-size: var(--text-size-body2);
   color: var(--text-secondary-color);
+}
+
+.work__image {
+  width: 100%;
+  margin-left: 15%;
 }
