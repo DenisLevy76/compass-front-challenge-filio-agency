@@ -7,7 +7,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Roboto:wght@300;400;500;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Roboto:wght@300;400;500;700&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="styles/style.css" />
@@ -35,18 +35,21 @@
         />
       </section>
       <section class="dark-section about">
-        <h1 class="about__title"><span>01.</span> Who we are</h1>
-        <strong class="about__strong"
-          >We Make Designs that Lead and Inspire.</strong
-        >
-        <div>
-          <button type="button" aria-label="previous image"><-</button>
-          <button type="button" aria-label="next image">-></button>
+        <div class="about__wrapper">
+          <h1 class="about__title">
+            <span class="about__title-span">01.</span> Who we are
+          </h1>
+          <strong class="about__strong"
+            >We Make Designs that Lead and Inspire.</strong
+          >
+          <div>
+            <button type="button" aria-label="previous image"><-</button>
+            <button type="button" aria-label="next image">-></button>
+            <select name="year" id="year">
+              <option value="2020">2020</option>
+            </select>
+          </div>
         </div>
-
-        <select name="year" id="year">
-          <option value="2020">2020</option>
-        </select>
 
         <div class="about__image">
           <img
@@ -56,17 +59,24 @@
           />
         </div>
 
-        <strong class="about__description"
-          >A design team building a curated marketplace for UI
-          designers.</strong
-        >
+        <div class="about-description">
+          <strong class="about-description__title"
+            >A design team building a curated marketplace for UI
+            designers.</strong
+          >
 
-        <p class="about__p">
-          4,404 curated design resources to energize your creative workflow.
-          We're a growing family of 334,531 designers and makers from around the
-          world
-        </p>
-        <a href="#" class="button">Contact us</a>
+          <p class="about-description__p">
+            4,404 curated design resources to energize your creative workflow.
+            We're a growing family of 334,531 designers and makers from around
+            the world
+          </p>
+          <a href="#" class="button">Contact us</a>
+        </div>
+
+        <div class="biggest-branding">
+          <strong class="biggest-branding__number">28</strong>
+          <strong class="biggest-branding__title">Bigest Branding</strong>
+        </div>
       </section>
     </main>
     <footer></footer>

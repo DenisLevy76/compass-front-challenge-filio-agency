@@ -10,10 +10,13 @@
 
   --text-color: #000000;
   --text-secondary-color: #606060;
+  --text-secondary-shades2: #adadad;
+  --text-secondary-shades3: #8b8b8b;
 
   --text-size-title: 1.125rem;
-  --text-size-body2: 1rem;
-  --text-size-heading4: 3rem;
+  --text-size-body2: 1rem; /* 16px */
+  --text-size-heading6: 1.5rem; /* 24px */
+  --text-size-heading4: 3rem; /* 40px */
   --text-size-display2: 5.25rem;
 
   --border-radius: 8px;
