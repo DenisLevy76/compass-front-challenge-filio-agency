@@ -12,6 +12,8 @@
   text-align: center;
 
   width: auto;
+
+  display: inline-block;
 }
 
 .button:hover {
