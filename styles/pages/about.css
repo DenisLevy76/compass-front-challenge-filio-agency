@@ -1,3 +1,10 @@
+.about {
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+}
+
 .about__wrapper {
   padding: 4rem 2rem 2rem 2rem;
   display: flex;
@@ -53,4 +60,30 @@
 
 .about-description__p {
   color: var(--text-secondary-shades3);
+}
+
+.biggest-branding {
+  width: 90vw;
+  height: 90vw;
+
+  box-shadow: 0px 25px 39px 10px rgb(0 0 0 / 22%);
+
+  border-radius: 100%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  margin: 4rem 0;
+}
+
+.biggest-branding__number {
+  font-size: var(--text-size-display1);
+  font-weight: 700;
+}
+
+.biggest-branding__title {
+  font-size: var(--text-size-body1);
+  font-weight: 600;
 }
