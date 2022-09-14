@@ -9,6 +9,19 @@
 .heading4 {
   font-size: var(--text-size-heading4);
   font-weight: 700;
+
+  max-width: 65vw;
+
+  white-space: wrap;
+}
+
+.heading6 {
+  font-size: var(--text-size-heading6);
+  font-weight: 700;
+
+  max-width: 65vw;
+
+  white-space: wrap;
 }
 
 .light {

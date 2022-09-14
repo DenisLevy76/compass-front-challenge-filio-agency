@@ -56,3 +56,19 @@
   text-overflow: ellipsis;
   white-space: nowrap;
 }
+
+.successful-projects {
+  padding: 0 2rem 2rem 2rem;
+}
+
+.successful-projects__span {
+  font-size: var(--text-size-display0);
+  font-weight: 600;
+  color: var(--primary);
+  display: inline-block;
+  margin-bottom: 1rem;
+}
+.successful-projects__p {
+  font-size: var(--text-size-body1);
+  font-weight: 600;
+}
