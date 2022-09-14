@@ -43,6 +43,10 @@
   color: var(--light);
 }
 
+.services-list__img {
+  max-width: 96px;
+}
+
 .service-list__title {
   color: var(--primary);
   font-size: var(--text-size-body1);
