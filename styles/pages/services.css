@@ -34,12 +34,13 @@
   position: relative;
 }
 
-.services-list__item--active {
+.services-list__item:hover {
   background-color: var(--primary);
   box-shadow: none;
+  color: var(--light);
 }
 
-.services-list__item--active > .service-list__title {
+.services-list__item:hover > .service-list__title {
   color: var(--light);
 }
 

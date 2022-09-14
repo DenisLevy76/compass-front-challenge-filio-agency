@@ -25,3 +25,47 @@
   width: 100%;
   margin-left: 15%;
 }
+
+.work-list {
+  padding: 0 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.work-list__item {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.work-list__img {
+  width: 100%;
+  max-width: 30rem;
+}
+
+.work-list__title {
+  font-size: var(--text-size-heading6);
+  font-weight: 700;
+  color: var(--dark);
+}
+
+.work-list__link {
+  width: 48px;
+  height: 48px;
+  border: 1px solid black;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 100%;
+}
+/* 
+.work__contact-us {
+  margin: 3rem 0;
+} */
+
+.link__wrapper {
+  padding: 3rem 2rem;
+}
