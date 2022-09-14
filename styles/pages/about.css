@@ -5,9 +5,20 @@
   align-items: center;
 }
 
+.about__page-navigation {
+  display: flex;
+  justify-content: space-between;
+}
+
 .about__strong {
   font-size: var(--text-size-heading4);
   font-weight: 700;
+}
+
+.about__select {
+  background-color: transparent;
+  border: none;
+  color: white;
 }
 
 .about__image {

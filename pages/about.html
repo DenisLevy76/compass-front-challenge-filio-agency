@@ -27,14 +27,20 @@
           <strong class="about__strong"
             >We Make Designs that Lead and Inspire.</strong
           >
-          <div>
-            <button type="button" aria-label="previous image">
-              <img src="../assets/icons/leftArrow.svg" alt="Left arrow" />
-            </button>
-            <button type="button" aria-label="next image">
-              <img src="../assets/icons/rightArrow.svg" alt="Right arrow" />
-            </button>
-            <select name="year" id="year">
+          <div class="about__page-navigation">
+            <div class="navigate-button-wrapper">
+              <a href="#" class="navigate-button" aria-label="previous image">
+                <img src="../assets/icons/leftArrow.svg" alt="Left arrow" />
+              </a>
+              <a
+                href="#"
+                class="navigate-button navigate-button--primary"
+                aria-label="next image"
+              >
+                <img src="../assets/icons/rightArrow.svg" alt="Right arrow" />
+              </a>
+            </div>
+            <select name="year" id="year" class="about__select">
               <option value="2020">2020</option>
             </select>
           </div>

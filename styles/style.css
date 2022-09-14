@@ -5,6 +5,7 @@
 @import url(components/section.css);
 @import url(components/sectionTitle.css);
 @import url(components/typography.css);
+@import url(components/navigateButton.css);
 
 @import url(pages/work.css);
 @import url(pages/about.css);
