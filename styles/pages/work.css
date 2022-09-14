@@ -19,6 +19,7 @@
 .work__description {
   font-size: var(--text-size-body2);
   color: var(--text-secondary-color);
+  line-height: var(--text-size-heading6);
 }
 
 .work__image {
@@ -61,10 +62,6 @@
 
   border-radius: 100%;
 }
-/* 
-.work__contact-us {
-  margin: 3rem 0;
-} */
 
 .link__wrapper {
   padding: 3rem 2rem;
