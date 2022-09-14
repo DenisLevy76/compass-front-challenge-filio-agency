@@ -4,8 +4,9 @@
 
   border-radius: 100%;
   padding: 1.1rem 1rem;
+  background-color: var(--light-shades);
 }
 
-.navigate-button--primary {
+.navigate-button:hover {
   background-color: var(--primary);
 }
