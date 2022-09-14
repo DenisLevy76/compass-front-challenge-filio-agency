@@ -24,8 +24,8 @@
 
   display: flex;
   align-items: center;
-  justify-content: center;
-  gap: 0.5rem;
+  justify-content: left;
+  gap: 1rem;
 
   padding: 2rem 1rem;
 
@@ -44,11 +44,15 @@
 }
 
 .services-list__img {
-  max-width: 96px;
+  width: 40%;
 }
 
 .service-list__title {
   color: var(--primary);
   font-size: var(--text-size-body1);
   font-weight: 600;
+
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
