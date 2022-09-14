@@ -4,18 +4,20 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.4/tiny-slider.css"
-    />
+
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Roboto:wght@300;400;500;700&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+    />
     <link rel="stylesheet" href="../styles/style.css" />
-    <title>Document</title>
+
+    <title>Services</title>
   </head>
   <body>
     <header class="header">
@@ -84,10 +86,47 @@
           <span class="successful-projects__span">68</span>
           <p class="successful-projects__p">😎 Successful Projects</p>
         </div>
-        div.carousel
+        <div class="carousel">
+          <div class="swiper">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+              <!-- Slides -->
+              <div class="swiper-slide">
+                <img src="../assets/images/carousel1.png" alt="" />
+              </div>
+              <div class="swiper-slide">
+                <img src="../assets/images/carousel1.png" alt="" />
+              </div>
+              <div class="swiper-slide">
+                <img src="../assets/images/carousel1.png" alt="" />
+              </div>
+              <div class="swiper-slide">
+                <img src="../assets/images/carousel1.png" alt="" />
+              </div>
+            </div>
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
       </section>
     </main>
     <footer></footer>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/min/tiny-slider.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script>
+      const swiper = new Swiper('.swiper', {
+        speed: 400,
+        spaceBetween: 10,
+        slidesPerView: 1,
+        centeredSlides: true,
+        pagination: {
+          el: '.swiper-pagination',
+          type: 'bullets',
+          clickable: true,
+        },
+        autoplay: {
+          delay: 5000,
+        },
+      });
+    </script>
   </body>
 </html>

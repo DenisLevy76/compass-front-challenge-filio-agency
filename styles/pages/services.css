@@ -72,3 +72,16 @@
   font-size: var(--text-size-body1);
   font-weight: 600;
 }
+
+.swiper-slide img {
+  width: 100%;
+  max-width: 329px;
+}
+
+.swiper-pagination-bullet {
+  box-shadow: var(--box-shadow3);
+}
+
+.swiper-pagination-bullet-active {
+  background: var(--gradient2);
+}
