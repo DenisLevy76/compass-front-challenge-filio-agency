@@ -38,10 +38,19 @@
               We Make Designs that Lead and Inpire.
             </h4>
             <div class="navigate-button-wrapper">
-              <a href="#" class="navigate-button" aria-label="previous image">
+              <button
+                type="button"
+                onclick="goBack()"
+                class="navigate-button"
+                aria-label="previous image"
+              >
                 <img src="../assets/icons/leftArrow.svg" alt="Left arrow" />
-              </a>
-              <a href="#" class="navigate-button" aria-label="next image">
+              </button>
+              <a
+                href="jobs.html"
+                class="navigate-button"
+                aria-label="next image"
+              >
                 <img src="../assets/icons/rightArrow.svg" alt="Right arrow" />
               </a>
             </div>
@@ -149,6 +158,7 @@
       <p class="footer__text">© 2020, UI8 LLC.</p>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="jobs.html"></script>
     <script>
       const swiper = new Swiper('.swiper', {
         speed: 400,
