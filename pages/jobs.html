@@ -22,8 +22,8 @@
   <body class="jobs">
     <header class="header">
       <img src="../assets/images/logo.png" alt="Logo Folio Agency" />
-      <a href="pages/hamburguer.html" class="hamburguer-button">
-        <img src="assets/icons/hamburguer.svg" alt="Open menu" />
+      <a href="hamburguer.html" class="hamburguer-button">
+        <img src="../assets/icons/hamburguer.svg" alt="Open menu" />
       </a>
     </header>
     <main>
@@ -41,16 +41,9 @@
               Agency is a full-service agency, busy designing and building beautiful digital products, brands, and experiences.
             </p>
             <div class="navigate-button-wrapper">
-              <a href="#" class="navigate-button" aria-label="previous image">
+              <button href="#" class="navigate-button" onclick="goBack()" aria-label="previous image">
                 <img src="../assets/icons/leftArrow.svg" alt="Left arrow" />
-              </a>
-              <a
-                href="#"
-                class="navigate-button"
-                aria-label="next image"
-              >
-                <img src="../assets/icons/rightArrow.svg" alt="Right arrow" />
-              </a>
+              </button>
             </div>
           </div>
           <ul class="jobs-list">
@@ -117,5 +110,6 @@
       </div>
       <p class="footer__text">© 2020, UI8 LLC.</p>
     </footer>
+    <script src="../scripts/goBack.js"></script>
   </body>
 </html>

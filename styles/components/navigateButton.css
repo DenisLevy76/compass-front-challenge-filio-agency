@@ -7,6 +7,10 @@
   background-color: var(--light-shades);
 }
 
+.transparent {
+  background-color: transparent;
+}
+
 .navigate-button:hover {
   background-color: var(--primary);
 }
