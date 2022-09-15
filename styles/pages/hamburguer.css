@@ -1,0 +1,52 @@
+.hamburguer {
+  background-image: url(../../assets/icons/path3.svg);
+  background-repeat: no-repeat;
+  background-position: top right;
+  padding: 3rem 2rem;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  height: 100vh;
+}
+.hamburger__wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  width: 100%;
+}
+.hamburger__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.humburger__logo {
+  max-width: 8.75rem;
+}
+
+.go-back__button {
+  background-color: transparent;
+  border: none;
+  padding: 0;
+
+  cursor: pointer;
+}
+
+.hamburger__links {
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+  font-weight: 700;
+}
+
+.links-nav__link {
+  font-size: var(--text-size-heading5);
+  text-decoration: none;
+  color: var(--text-secondary-shades4);
+}
+
+.links-nav__link:hover {
+  color: var(--light);
+}
