@@ -86,3 +86,65 @@
 .swiper-pagination-bullet-active {
   background: var(--gradient2);
 }
+
+@media screen and (min-width: 1024px) {
+  .services {
+    padding: var(--text-size-display1);
+    background-position: right 55vh;
+  }
+  .services_path {
+    background-image: url(../../assets/icons/path2.svg);
+    background-repeat: no-repeat;
+    background-size: 40%;
+  }
+  .title-wrapper-container {
+    width: 100%;
+  }
+
+  .services__title-wrapper {
+    margin: 0 auto;
+  }
+
+  .services-list {
+    flex-direction: row;
+  }
+
+  .services-list__item {
+    height: 21.25rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .services-list__item:hover {
+    scale: 1.15;
+    z-index: 4;
+  }
+
+  .achievements {
+    display: flex;
+    flex-direction: row-reverse;
+    width: 100%;
+
+    justify-content: space-around;
+  }
+
+  .carousel {
+    width: 28.81rem;
+  }
+
+  .services-list__item {
+    box-shadow: none;
+  }
+
+  .services-list {
+    background-color: var(--light);
+    border-radius: 1.5rem;
+    box-shadow: 0px 8px rgba(226, 226, 226, 0.288);
+    margin-bottom: 2rem;
+  }
+
+  .achievements__title {
+    max-width: 35rem;
+  }
+}

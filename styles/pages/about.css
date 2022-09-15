@@ -119,7 +119,7 @@
     grid-area: nav;
   }
 
-  .title-wrapper {
+  .about-title-wrapper {
     padding-left: 22.5%;
     display: grid;
     justify-content: space-between;

@@ -19,7 +19,7 @@
 
     <title>Services</title>
   </head>
-  <body>
+  <body class="services_path">
     <header class="header">
       <img src="../assets/images/logo.png" alt="Logo Folio Agency" />
       <nav class="header__navbar">
@@ -45,17 +45,21 @@
         <img src="../assets/icons/hamburguer.svg" alt="Open menu" />
       </a>
     </header>
-    <main>
-      <section class="services">
-        <div class="services-wrapper">
-          <div class="title-wrapper">
-            <h2 class="section__title section__title-light">
-              <span class="section__title-span section__title-light">03.</span>
-              Who we are
-            </h2>
-            <h4 class="heading4 light">
-              We Make Designs that Lead and Inpire.
-            </h4>
+    <main class="services">
+      <section>
+        <div class="services-wrappser">
+          <div class="title-wrapper services__title-wrapper">
+            <div class="title-wrapper-container">
+              <h2 class="section__title section__title-light">
+                <span class="section__title-span section__title-light"
+                  >03.</span
+                >
+                Who we are
+              </h2>
+              <h4 class="heading4 light">
+                We Make Designs that Lead and Inpire.
+              </h4>
+            </div>
             <div class="navigate-button-wrapper">
               <a
                 href="about.html"
@@ -110,18 +114,20 @@
         </div>
       </section>
       <section class="achievements">
-        <div class="title-wrapper">
-          <h2 class="section__title section__title-light">
-            <span class="section__title-span section__title-light">03.</span>
-            Achievement
-          </h2>
-          <h6 class="heading6 light">
-            A design team building a curated marketplace for UI designers.
-          </h6>
-        </div>
-        <div class="successful-projects">
-          <span class="successful-projects__span">68</span>
-          <p class="successful-projects__p">😎 Successful Projects</p>
+        <div>
+          <div class="title-wrapper">
+            <h2 class="section__title section__title-light">
+              <span class="section__title-span section__title-light">03.</span>
+              Achievement
+            </h2>
+            <h6 class="heading6 light achievements__title">
+              A design team building a curated marketplace for UI designers.
+            </h6>
+          </div>
+          <div class="successful-projects">
+            <span class="successful-projects__span">68</span>
+            <p class="successful-projects__p">😎 Successful Projects</p>
+          </div>
         </div>
         <div class="carousel">
           <div class="swiper">
@@ -148,13 +154,21 @@
       </section>
     </main>
     <footer class="footer">
-      <a href="/dawdoauw"
+      <a href="/dawdoauw" class="footer__img footer__img--tablet"
         ><img
-          src="../assets/images/ContactMobile.png"
+          src="../assets/images/contact.png"
           class="footer__img"
+          alt="Contact us" />
+        <img
+          src="../assets/images/tablet/contactTablet.png"
+          class="footer__img--tablet"
           alt="Contact us"
       /></a>
-      <img src="../assets/images/logo.png" alt="Logo Folio Agency" />
+      <img
+        src="../assets/images/logo.png"
+        class="footer__logo"
+        alt="Logo Folio Agency"
+      />
       <p class="footer__text">
         Agency is a full-service agency, busy designing and building.
       </p>
@@ -174,6 +188,37 @@
         /></a>
       </div>
       <p class="footer__text">© 2020, UI8 LLC.</p>
+
+      <nav class="header__navbar footer_navbar">
+        <ul class="navbar__links">
+          <li class="navbar__link">
+            <a href="work.html">Work</a>
+          </li>
+          <li class="navbar__link">
+            <a href="about.html">About</a>
+          </li>
+          <li class="navbar__link">
+            <a href="services.html">Services</a>
+          </li>
+          <li class="navbar__link">
+            <a href="jobs.html">Jobs</a>
+          </li>
+        </ul>
+      </nav>
+      <div class="footer__footer">
+        <p class="footer__text">© 2020, UI8 LLC.</p>
+        <div class="footer__social social-links">
+          <a href="https://www.facebook.com/"
+            ><img src="../assets/icons/facebookIcon.svg" alt="facebook icon"
+          /></a>
+          <a href="https://www.youtube.com/"
+            ><img src="../assets/icons/youtubeIcon.svg" alt="youtube icon" />
+          </a>
+          <a href="https://www.instagram.com/"
+            ><img src="../assets/icons/instagramIcon.svg" alt="instagram icon"
+          /></a>
+        </div>
+      </div>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
     <script src="jobs.html"></script>
@@ -183,6 +228,7 @@
         spaceBetween: 10,
         slidesPerView: 1,
         centeredSlides: true,
+        loop: true,
         pagination: {
           el: '.swiper-pagination',
           type: 'bullets',
