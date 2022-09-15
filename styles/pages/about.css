@@ -34,7 +34,9 @@
 
 .about-description {
   display: flex;
+  align-items: center;
   flex-direction: column;
+  width: 100%;
   gap: 2rem;
 
   padding: 4rem 2rem 2rem 2rem;
@@ -75,4 +77,64 @@
 .biggest-branding__title {
   font-size: var(--text-size-body1);
   font-weight: 600;
+}
+
+.about__img--tablet {
+  display: none;
+  width: 100%;
+}
+
+.about-description__wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+@media screen and (min-width: 1024px) {
+  .about {
+    background-image: url(../../assets/icons/path4.svg);
+    background-repeat: no-repeat;
+    background-position: left top;
+  }
+  .about__img--tablet {
+    display: block;
+  }
+  .about__img {
+    display: none;
+  }
+
+  .about__select {
+    display: none;
+  }
+
+  .section__title {
+    grid-area: title;
+  }
+
+  .about__strong {
+    grid-area: strong;
+  }
+
+  .about__page-navigation {
+    grid-area: nav;
+  }
+
+  .title-wrapper {
+    padding-left: 22.5%;
+    display: grid;
+    justify-content: space-between;
+    width: 100%;
+    grid-template-columns: auto auto;
+    grid-template-areas: 'title nav' 'strong nav';
+  }
+
+  .about-description {
+    display: flex;
+    flex-direction: row;
+
+    align-items: center;
+    justify-content: center;
+
+    gap: var(--text-size-heading3);
+  }
 }

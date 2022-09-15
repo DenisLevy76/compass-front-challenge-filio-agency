@@ -15,8 +15,10 @@
   background-position: -100px bottom;
 }
 
-.footer__img {
+.footer__img,
+.footer__img--tablet {
   width: 100%;
+  max-width: 1100px;
 }
 
 .footer__text {
@@ -68,9 +70,6 @@
 
   .footer > .footer__social {
     display: none;
-  }
-
-  .footer__social {
   }
 
   .footer__footer {

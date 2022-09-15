@@ -2,4 +2,30 @@
   background-color: var(--dark);
   color: var(--light);
   width: 100%;
+
+  position: relative;
+}
+
+@media screen and (min-width: 1024px) {
+  .dark-section {
+    padding: var(--text-size-display1);
+  }
+  .dark-section::before {
+    content: '';
+    background: url(../../assets/images/desktop/sectionBg.png) no-repeat;
+    background-position: right top;
+    width: 100vw;
+    height: 90vh;
+
+    position: absolute;
+    top: -40px;
+  }
+
+  .title-wrapper {
+    z-index: 3;
+  }
+
+  .about__image {
+    z-index: 3;
+  }
 }
