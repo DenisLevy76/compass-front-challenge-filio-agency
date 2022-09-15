@@ -6,6 +6,16 @@
   padding: 4rem 2rem 2rem 2rem;
 }
 
+.heading2 {
+  font-size: var(--text-size-heading2);
+  font-weight: 700;
+  line-height: var(--text-size-heading3);
+
+  max-width: 65vw;
+
+  white-space: wrap;
+}
+
 .heading4 {
   font-size: var(--text-size-heading4);
   font-weight: 700;
