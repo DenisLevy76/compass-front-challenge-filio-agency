@@ -1,4 +1,11 @@
 .path-background {
-  background: url(../../assets/icons/path.svg) no-repeat;
-  background-position: right top;
+  background: url(../../assets/icons/path2.svg) no-repeat;
+  background-position: 100px top;
+  width: 100vw;
+}
+
+@media screen and (min-width: 1024px) {
+  .path-background {
+    background-position: 200px 0px;
+  }
 }
