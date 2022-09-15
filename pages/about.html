@@ -31,17 +31,18 @@
           >
           <div class="about__page-navigation">
             <div class="navigate-button-wrapper">
-              <a
+              <button
+                onclick="goBack()"
                 href="#"
                 class="navigate-button transparent"
-                aria-label="previous image"
+                aria-label="previous page"
               >
                 <img src="../assets/icons/leftArrow.svg" alt="Left arrow" />
-              </a>
+              </button>
               <a
-                href="#"
+                href="services.html"
                 class="navigate-button transparent"
-                aria-label="next image"
+                aria-label="next page"
               >
                 <img src="../assets/icons/rightArrow.svg" alt="Right arrow" />
               </a>
@@ -108,5 +109,6 @@
       </div>
       <p class="footer__text">© 2020, UI8 LLC.</p>
     </footer>
+    <script src="../scripts/goBack.js"></script>
   </body>
 </html>
