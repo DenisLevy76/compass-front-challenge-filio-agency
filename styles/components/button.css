@@ -16,6 +16,10 @@
   display: inline-block;
 }
 
+.button-dark {
+  background-color: var(--dark);
+}
+
 .button:hover {
   filter: brightness(0.9);
 }

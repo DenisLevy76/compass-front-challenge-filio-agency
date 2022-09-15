@@ -1,10 +1,51 @@
 .header {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 
   width: 100%;
 
   padding: 4rem 2rem;
 
   background-color: transparent;
+}
+
+.header__navbar {
+  display: none;
+}
+
+.header__button {
+  display: none !important;
+}
+
+.navbar__links {
+  display: flex;
+  gap: 4rem;
+  font-size: var(--text-size-body1);
+}
+.navbar__link > a {
+  text-decoration: none;
+  font-weight: 600;
+  color: var(--text-secondary-shades3);
+}
+
+.navbar__link:hover > a {
+  text-decoration: none;
+  font-weight: 600;
+  color: var(--primary);
+}
+
+/* tablet and desktop */
+@media screen and (min-width: 1024px) {
+  .hamburguer-button {
+    display: none;
+  }
+
+  .header__navbar {
+    display: block;
+  }
+
+  .header__button {
+    display: block !important;
+  }
 }
