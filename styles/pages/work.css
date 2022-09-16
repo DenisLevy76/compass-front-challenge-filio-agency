@@ -216,3 +216,9 @@
     bottom: 5%;
   }
 }
+
+@media screen and (min-width: 1440px) {
+  .hero {
+    padding: 0 var(--text-size-display0);
+  }
+}
