@@ -10,6 +10,10 @@
 
   height: 100vh;
 }
+
+.footer__social {
+  filter: invert(80%);
+}
 .hamburger__wrapper {
   display: flex;
   flex-direction: column;
