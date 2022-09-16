@@ -40,7 +40,8 @@
   gap: 1.5rem;
 }
 
-.work-list__img {
+.work-list__img,
+.work-list__img--mobile {
   width: 100%;
   max-width: 30rem;
 }

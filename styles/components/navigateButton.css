@@ -4,7 +4,14 @@
 
   border-radius: 100%;
   padding: 1.1rem 1rem;
-  background-color: var(--light-shades);
+}
+
+.navigate-button--light img {
+  filter: invert(100%);
+}
+
+.navigate-button--light:hover img {
+  filter: invert(0%);
 }
 
 .transparent {
