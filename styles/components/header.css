@@ -22,7 +22,10 @@
   display: flex;
   gap: 4rem;
   font-size: var(--text-size-body1);
+
+  position: relative;
 }
+
 .navbar__link > a {
   text-decoration: none;
   font-weight: 600;
@@ -33,6 +36,12 @@
   text-decoration: none;
   font-weight: 600;
   color: var(--primary);
+}
+
+.header__notification {
+  position: absolute;
+  top: -25px;
+  right: -25px;
 }
 
 /* tablet and desktop */

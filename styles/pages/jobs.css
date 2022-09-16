@@ -61,6 +61,20 @@
   position: relative;
 }
 
+.jobs-list__item:hover {
+  background-color: var(--dark);
+  background-image: url(../../assets/images/jobsImage.png);
+  background-repeat: no-repeat;
+
+  background-position: right center;
+}
+
+.jobs-list__item:hover .jobs-list__title,
+.jobs-list__item:hover .list-item__img {
+  color: black;
+  filter: invert(100%);
+}
+
 .notification__wrapper {
   display: flex;
   gap: 1rem;

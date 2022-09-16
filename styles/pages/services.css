@@ -1,8 +1,6 @@
 .services {
   background: url(../../assets/icons/path2.svg) no-repeat;
   background-position: center center;
-
-  padding: 0 var(--text-size-display0);
 }
 
 .services-wrapper {
@@ -152,6 +150,9 @@
 }
 
 @media screen and (min-width: 1440px) {
+  .services {
+    padding: 0 var(--text-size-display0);
+  }
   .services_path {
     background-size: 20%;
   }
