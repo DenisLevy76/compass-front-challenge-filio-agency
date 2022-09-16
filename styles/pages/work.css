@@ -81,6 +81,10 @@
   display: none;
 }
 
+.hero__page {
+  overflow-x: hidden;
+}
+
 @media screen and (min-width: 1024px) {
   .hero {
     display: flex;
