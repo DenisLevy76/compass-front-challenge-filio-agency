@@ -11,7 +11,7 @@
   height: 100vh;
 }
 
-.footer__social {
+.hamburger__social {
   filter: invert(80%);
 }
 .hamburger__wrapper {
