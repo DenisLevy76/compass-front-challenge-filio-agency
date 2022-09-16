@@ -80,3 +80,19 @@
   max-width: 24px;
   max-height: 24px;
 }
+
+@media screen and (min-width: 1024px) {
+  .jobs-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: var(--text-size-display1);
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .jobs-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: var(--text-size-display0);
+  }
+}
