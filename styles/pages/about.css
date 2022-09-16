@@ -138,3 +138,14 @@
     gap: var(--text-size-heading3);
   }
 }
+
+@media screen and (min-width: 1440px) {
+  .about-description {
+    width: 80%;
+    justify-content: space-between;
+  }
+  .about-description__wrapper {
+    max-width: 568px;
+    justify-content: space-between;
+  }
+}
