@@ -1,3 +1,7 @@
+.hero {
+  overflow: hidden;
+}
+
 .hamburguer {
   background-image: url(../../assets/icons/path3.svg);
   background-repeat: no-repeat;
