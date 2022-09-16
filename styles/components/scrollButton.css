@@ -1,0 +1,19 @@
+.scroll__button {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  color: var(--text-secondary-shades3);
+}
+
+.scroll__img {
+  background-color: var(--secondary);
+  width: 48px;
+  height: 48px;
+  border-radius: 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

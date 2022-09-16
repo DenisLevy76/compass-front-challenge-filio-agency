@@ -10,6 +10,7 @@
 @import url(components/path.css);
 @import url(components/footer.css);
 @import url(components/socialLinks.css);
+@import url(components/scrollButton.css);
 
 @import url(pages/work.css);
 @import url(pages/about.css);
