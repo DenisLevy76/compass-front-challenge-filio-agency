@@ -67,8 +67,21 @@
   padding: 3rem 2rem;
 }
 
+.work-list__img--tablet {
+  display: none;
+}
+
+.tablet__contact-us {
+  display: none;
+  white-space: nowrap;
+}
+
+.view__button {
+  display: none;
+}
+
 @media screen and (min-width: 1024px) {
-  .work {
+  .hero {
     display: flex;
 
     padding: var(--text-size-heading2);
@@ -76,9 +89,130 @@
     max-width: 100vw;
   }
 
+  .tablet__contact-us {
+    display: block;
+  }
+
+  .work-header__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: var(--text-size-display0);
+    padding: 0 var(--text-size-display1);
+  }
+
   .work__image {
     width: 70%;
     margin-left: 0;
     display: block;
+  }
+
+  .work {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .work-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .work-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 0 var(--text-size-display1);
+    direction: rtl;
+  }
+
+  .emphasis {
+    position: relative;
+  }
+
+  .emphasis > .work-list__img {
+    display: none;
+  }
+
+  .work-list__img--tablet {
+    display: block;
+    width: 100%;
+  }
+
+  .emphasis {
+    display: grid;
+    direction: rtl;
+    grid-template-columns: auto;
+    justify-content: right;
+    align-items: center;
+    grid-column: span 2;
+    position: relative;
+    margin-bottom: 208px;
+  }
+
+  .work-list__img {
+    width: 80%;
+  }
+
+  .emphasis > img {
+    width: 80%;
+  }
+
+  .work-list__img--mobile {
+    display: none;
+  }
+
+  .emphasis > .description__wrapper {
+    position: absolute;
+    left: -1.5rem;
+    top: 50%;
+    max-width: 35%;
+    text-align: left;
+  }
+
+  .emphasis > .description__wrapper > a {
+    position: absolute;
+    right: -130%;
+    top: 30%;
+  }
+
+  .up {
+    transform: translate(0, -208px);
+  }
+
+  .work-list__item {
+    position: relative;
+  }
+
+  .work-list__item > strong {
+    order: -1;
+  }
+
+  .work-list__item > a:not(.view__button) {
+    position: absolute;
+    right: 0;
+    transform: translate(50%);
+    bottom: 40%;
+  }
+
+  .work__contact-us {
+    display: none;
+  }
+
+  .work-list__item > .view__button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 48px;
+    height: 48px;
+    background-color: var(--dark);
+    border-radius: 100%;
+    text-decoration: none;
+    color: var(--light);
+
+    position: absolute;
+    left: 40% !important;
+    bottom: 5%;
   }
 }
