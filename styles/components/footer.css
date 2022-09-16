@@ -11,6 +11,9 @@
 
   text-align: center;
 
+  max-width: 100vw;
+  overflow: hidden;
+
   background: url(../../assets/icons/path2.svg) no-repeat;
   background-position: -100px bottom;
 }
