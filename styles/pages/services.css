@@ -148,3 +148,18 @@
     max-width: 35rem;
   }
 }
+
+@media screen and (min-width: 1440px) {
+  .services_path {
+    background-size: 20%;
+  }
+
+  .services-list {
+    justify-content: center;
+  }
+
+  .services-list__item {
+    max-width: 300px;
+    height: 560px;
+  }
+}
